@@ -19,15 +19,17 @@
 		cd sms_class; 到主目录 
 		python src/production.py 会显示出下列信息
 		输出:
-			测试样例为： ['您好！您的京东订单46892957801退款已成功受理，99.00元将返还到您原
-			支付账户，请在1-15个工作日内注意查收，如有疑问请致电京东【京东】', '[注册验证码]
-			：187204【京东到家】', '年货美食满199减100，饮料冲调200减188神券！优惠多多，抓紧
-			囤货 dc.jd.com/sPtKQQ 回复BK退订【京东】']
+			测试样例为： ['尊敬的京东会员您好，您在京东预约的商品【编号:2289329】，将于1月19
+			日10点0分准时抢购，货源有限先到先得。详情猛戳链接：item.m.jd.com/ware/view.actio
+			n?wareId=2289329', '您好！您的京东订单46892957801退款已成功受理，99.00元将返还到
+			您原支付账户，请在1-15个工作日内注意查收，如有疑问请致电京东【京东】', '[注册验
+			证码]：606227【京东到家】']
 			Building prefix dict from the default dictionary ...
 			Loading model from cache C:\Users\ADMINI~1\AppData\Local\Temp\jieba.cache
-			Loading model cost 0.747 seconds.
+			Loading model cost 0.741 seconds.
 			Prefix dict has been built succesfully.
-			测试结果为： ['sale' 'vcode' 'sale']
+			测试结果为： ['info' 'sale' 'vcode']
+
 
 
 	1.数据转化：
